@@ -13,8 +13,9 @@ import {
     git,
     carrent,
     jobit,
-    tripguide,
+    weather,
     threejs,
+    comicbook,
   } from "../assets";
   
   export const navLinks = [
@@ -94,60 +95,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Weather Dashboard",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A basic app that allows you to see the weather for a specific searched or saved city using the OpenWeather API",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-      live_site: 'https://facebook.com'
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-      live_site: 'https://youtube.com'
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "Javascript",
           color: "green-text-gradient",
         },
         {
@@ -155,9 +112,31 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-      live_site: 'https://youtube.com'
+      image: weather,
+      source_code_link: "https://github.com/sco5am/Server-Side-API-Weather-Dashboard",
+      live_site: 'https://sco5am.github.io/Server-Side-API-Weather-Dashboard/'
+    },
+    {
+      name: "The Comic-Book",
+      description:
+        "The Comic-Book allows users to share their favorite comic book characters, take daily quizes, and intigrates the Marvel API as well as the OMDB API.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: comicbook,
+      source_code_link: "https://github.com/sco5am/team5-project1",
+      live_site: 'https://sco5am.github.io/team5-project1/'
     },
   ];
   

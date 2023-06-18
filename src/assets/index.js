@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import Oaks from './Oaks.svg'
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -7,6 +8,8 @@ import github from "./github.png";
 import live from './live.png'
 import menu from "./menu.svg";
 import close from "./close.svg";
+import comicbook from './Comicbook.png'
+import weather from './Weather.png'
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -27,8 +30,10 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  Oaks,
   backend,
   creator,
+  comicbook,
   mobile,
   web,
   github,
@@ -49,4 +54,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  weather,
 };
